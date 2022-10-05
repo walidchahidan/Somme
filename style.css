@@ -1,13 +1,16 @@
 body{
     text-align: center;
     align-items: center;
+    background-image: url("./wall2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #game{
     display: block;
     margin: auto;
     padding: 15px 0;
     width: 50%;
-    background-color: lawngreen;
+    background-color: rgba(199, 192, 192, 0.37);
     height: 350px;
     border-radius: 10px;
     margin-top: 40px;
@@ -35,7 +38,7 @@ input{
 }
 #restart{
     display: none;
-    background-color: lawngreen;
+    background-color: rgba(199, 192, 192, 0.37);
     margin: auto;
     padding: 15px 0;
     width: 50%;
